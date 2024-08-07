@@ -3,19 +3,17 @@ import location from "../assets/location.svg";
 import Japan from "/japan.png";
 
 function Section(props) {
-//   console.log(props);
-
   return (
     <section className="item">
       <div className="section--main">
-        <img src={props.coverImg} className="section--image" />
+        <img src={props.coverImg} className="section--image" alt={props.location} />
 
         <div className="subsection">
           <div className="header--location">
             <span>
               <img src={location} alt="Location" />
-              <span className="countery">{props.countery}</span>
-              <a href={props.mapLink} className="map--text">
+              <span className="country">{props.country}</span>
+              <a href={props.mapLink} className="map--text" target="_blank" rel="noopener noreferrer">
                 View on Google Maps
               </a>
             </span>
@@ -31,7 +29,7 @@ function Section(props) {
         </div>
       </div>
 
-      <hr></hr>
+      <hr />
     </section>
   );
 }
