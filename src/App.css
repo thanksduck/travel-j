@@ -21,8 +21,8 @@
 }
 
 .header--logo {
-  width: 50px;
-  height: 50px;
+  width: 2rem;
+  height: 2rem;
 }
 
 .item {
@@ -56,6 +56,7 @@
 
 .header--location {
   padding: 10px 0;
+  margin-top: 1rem;
   width: 100%;
   z-index: 1000;
   display: flex;
@@ -111,7 +112,7 @@
   line-height: 30.26px;
   text-align: left;
   color: #2B283A;
-  margin-top: 1rem;
+  /* margin-top: 1rem; */
   margin-bottom: 1.75rem;
 
 }
@@ -128,9 +129,10 @@
 
 .brief-text {
   font-family: Inter;
-  font-size: .8rem;
+  font-size: 1rem;
   font-weight: 400;
   line-height: 15.36px;
   text-align: left;
   color: #2B283A;
+  line-height: 1.3rem;
 }
